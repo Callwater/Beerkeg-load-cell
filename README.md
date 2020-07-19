@@ -170,4 +170,27 @@ Reload Home Assistant and go into Dev Tools > States and see if you are getting 
 
 [![dBHdsp.md.png](https://iili.io/dBHdsp.md.png)](https://freeimage.host/i/dBHdsp)
 
+Then just add a glancecard and put in your sensors:
+
+[![dBHnmG.md.png](https://iili.io/dBHnmG.md.png)](https://freeimage.host/i/dBHnmG)
+
+Use: mdi:glass-mug-variant for the icon.
+
+If u want a "tare" button just insert a manual card and put in this code:
+
+```
+type: button
+tap_action:
+  action: call-service
+  service: mqtt.publish
+  service_data:
+    payload: tare
+    topic: beer_1/tare
+icon: 'mdi:scale'
+name: 'Nollställ fat 1 '
+icon_height: 35px
+```
+
+[![dBHzX4.md.png](https://iili.io/dBHzX4.md.png)](https://freeimage.host/i/dBHzX4)
+
 
