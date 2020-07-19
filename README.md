@@ -55,7 +55,8 @@ Next download both of the sketches from my Github for this project.
 
 Go ahead and upload the “mqtt_beer_load_cell_Calibration” sketch to your board and open the serial monitor at 74880. After a few seconds, you should see the monitor start to output something that resembles the following:
 
-```Initializing scale calibration.
+``` 
+Initializing scale calibration.
 Please remove all weight from scale.
 Place known weights on scale one by one.
 Reading: 0.00kg
@@ -67,9 +68,29 @@ Calibration Factor: 2400
 Reading: 0.00kg
 Calibration Factor: 2400
 Reading 0.00kg
-Calibration Factor: 2400```
+Calibration Factor: 2400 
+```
 
+If you are getting readings from the monitor then this should mean your setup is working. If you are not, check your wiring.
 
+Put some pressure on the inner part of one of the load cells with your finger, you should then start to see values change:
+
+```
+...
+Reading: 0.01kg
+Calibration Factor: 2400
+Reading: 0.00kg
+Calibration Factor: 2400
+Reading 0.00kg
+Calibration Factor: 2400
+Reading: 4.58kg
+Calibration Factor: 2400
+Reading: 4.02kg
+Calibration Factor: 2400
+Reading 4.27kg
+Calibration Factor: 2400
+...
+```
 
 
 
