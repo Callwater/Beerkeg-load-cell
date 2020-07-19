@@ -102,6 +102,7 @@ Assuming you got readings as above, you should be safe to mount the hardware in 
 This part is obviously very person dependant, but I’ll show you how I mounted mine.
 
 [![dB9hbf.md.jpg](https://iili.io/dB9hbf.md.jpg)](https://freeimage.host/i/dB9hbf)
+[![dBHILl.md.jpg](https://iili.io/dBHILl.md.jpg)](https://freeimage.host/i/dBHILl)
 
 ## Calibration
 
