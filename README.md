@@ -21,7 +21,7 @@ Some plywood
 
 ## Libraries
 
-[HX711] library - available through Arduino IDE library manager(https://github.com/bogde/HX711)
+[HX711](https://github.com/bogde/HX711)library - available through Arduino IDE library manager
 
 
 
