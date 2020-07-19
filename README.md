@@ -148,6 +148,10 @@ Place a weight on the bed again as a final test and make sure it is reading corr
 
 Now we can finish integrating our beerkeg sensor setup in Home Assistant!
 
+## Home Assistant
+
+Open your configuration.yaml file and add a new entry:
+
 ```
   - platform: mqtt
     name: "Ölvåg 1"
@@ -160,6 +164,10 @@ Now we can finish integrating our beerkeg sensor setup in Home Assistant!
     state_topic: "beer_1/raw"
     unit_of_measurement: "raw"
     availability_topic: "beer_1/available"
-    ```
+```
+
+Reload Home Assistant and go into Dev Tools > States and see if you are getting information through:
+
+[![dBHdsp.md.png](https://iili.io/dBHdsp.md.png)](https://freeimage.host/i/dBHdsp)
 
 
