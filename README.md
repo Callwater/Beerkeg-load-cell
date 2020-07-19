@@ -11,21 +11,21 @@ Has remote tare function which you can issue over MQTT if your sensor suffers fr
 
 * [Load cells with HX711 Amplifier](https://www.banggood.com/4pcs-DIY-50KG-Body-Load-Cell-Weight-Strain-Sensor-Resistance-With-HX711-AD-Module-p-1326815.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
-*[Esp826](https://www.banggood.com/Geekcreit-NodeMcu-Lua-WIFI-Internet-Things-Development-Board-Based-ESP8266-CP2102-Wireless-Module-p-1097112.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
+* [Esp826](https://www.banggood.com/Geekcreit-NodeMcu-Lua-WIFI-Internet-Things-Development-Board-Based-ESP8266-CP2102-Wireless-Module-p-1097112.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
-*[3d printed brackets](https://www.thingiverse.com/thing:2624188)
+* [3d printed brackets](https://www.thingiverse.com/thing:2624188)
 
-*Phone charger and a micro usb cable
+* Phone charger and a micro usb cable
 
-*Some plywood 
+* Some plywood 
 
 ### Libraries
 
-*[HX711](https://github.com/bogde/HX711)library - available through Arduino IDE library manager
+* [HX711](https://github.com/bogde/HX711)library - available through Arduino IDE library manager
 
-*[PubSubClient](https://github.com/knolleary/pubsubclient)library - available through Arduino IDE library manager
+* [PubSubClient](https://github.com/knolleary/pubsubclient)library - available through Arduino IDE library manager
 
-*[ESP boards](https://github.com/esp8266/Arduino)
+* [ESP boards](https://github.com/esp8266/Arduino)
 
 ## Hardware setup
 
@@ -122,23 +122,23 @@ Fire up the sketch, and open the change your view to the config.h file.
 
 We need to change a few simple variables here:
 
-*SSID and Password – change these to your Wifi setup.
+* SSID and Password – change these to your Wifi setup.
 
-*MQTT_Server – change this to the IP or hostname of your MQTT server.
+* MQTT_Server – change this to the IP or hostname of your MQTT server.
 
-*mqtt_username and mqtt_password – change these if you have authentication enabled.
+* mqtt_username and mqtt_password – change these if you have authentication enabled.
 
-*Calibration factor – change this to the value you obtained from the calibration steps in the last section.
+* Calibration factor – change this to the value you obtained from the calibration steps in the last section.
 
 You can optionally adjust the MQTT topics if you wish. These topics are for:
 
-*State topic: this is where the kg value will be published to, which will be picked up with Home Assistant.
+* State topic: this is where the kg value will be published to, which will be picked up with Home Assistant.
 
-*State raw topic: I am also publishing the raw scale values to Home Assistant, these can be pretty useful for checking drift.
+* State raw topic: I am also publishing the raw scale values to Home Assistant, these can be pretty useful for checking drift.
 
-*Availability topic: When the scale starts up, it will publish a message to this topic so Home Assistant knows it is online.
+* Availability topic: When the scale starts up, it will publish a message to this topic so Home Assistant knows it is online.
 
-*Tare Topic: The scale will subscribe to this topic, when it receives a message to this topic, it will tare (reset) the scale. Very useful for combating drift.
+* Tare Topic: The scale will subscribe to this topic, when it receives a message to this topic, it will tare (reset) the scale. Very useful for combating drift.
 
 Upload the sketch to your board and open the monitor at 74880 speed. You should see it connect to your Wifi, connect to MQTT then it will tare the scale. Then it will start to output the weight and raw value every 3 seconds.
 
