@@ -1,6 +1,6 @@
 
 // Wifi Settings
-#define SSID                          "your SSID"
+#define SSID                          "your_SSID"
 #define PASSWORD                      "password"
 
 // MQTT Settings
