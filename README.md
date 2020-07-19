@@ -176,7 +176,7 @@ Then just add a glancecard and put in your sensors:
 
 Use: mdi:glass-mug-variant for the icon.
 
-If u want a "tare" button just insert a manual card and put in this code:
+If you want a "tare" button just insert a manualcard and put in this code:
 
 ```
 type: button
