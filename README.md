@@ -41,7 +41,7 @@ Once you have that, we need to wire the HX711 to the our Wemos D1 Mini (or which
 
 It should look like this:
 
-![Image of wire](https://everythingsmarthome.co.uk/wp-content/uploads/2019/09/load-cell-wiring.png)
+[![dB9qDx.md.png](https://iili.io/dB9qDx.md.png)](https://freeimage.host/i/dB9qDx)
 
 
 
