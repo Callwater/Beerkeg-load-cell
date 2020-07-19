@@ -13,5 +13,16 @@ Has remote tare function which you can issue over MQTT if your sensor suffers fr
 
 [Esp826](https://www.banggood.com/Geekcreit-NodeMcu-Lua-WIFI-Internet-Things-Development-Board-Based-ESP8266-CP2102-Wireless-Module-p-1097112.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
+[3d printed brackets](https://www.thingiverse.com/thing:2624188)
+
 Phone charger and a micro usb cable
+
+Some plywood 
+
+## Libraries
+
+[HX711] library - available through Arduino IDE library manager(https://github.com/bogde/HX711)
+
+
+
 
