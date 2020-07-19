@@ -148,4 +148,18 @@ Place a weight on the bed again as a final test and make sure it is reading corr
 
 Now we can finish integrating our beerkeg sensor setup in Home Assistant!
 
+```
+  - platform: mqtt
+    name: "Ölvåg 1"
+    state_topic: "beer_1"
+    unit_of_measurement: "L"
+    availability_topic: "beer_1/available"
+    
+  - platform: mqtt
+    name: "Ölvåg 1 raw"
+    state_topic: "beer_1/raw"
+    unit_of_measurement: "raw"
+    availability_topic: "beer_1/available"
+    ```
+
 
