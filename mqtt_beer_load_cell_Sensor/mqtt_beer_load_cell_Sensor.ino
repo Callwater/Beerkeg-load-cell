@@ -50,6 +50,7 @@ void loop()
   float raw;                           // Float for raw value which can be useful
   scale.wait_ready();                  // Wait till scale is ready, this is blocking if your hardware is not connected properly.
   scale.set_scale(calibration_factor); // Sets the calibration factor.
+  //scale.set_offset(offset_factor);     // Sets the offset factor.
 
   // Ensure we are still connected to MQTT Topics
   if (!client.connected())
