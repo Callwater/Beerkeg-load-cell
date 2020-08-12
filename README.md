@@ -11,6 +11,8 @@ Has remote tare function which you can issue over MQTT if your sensor suffers fr
 
 * [Load cells with HX711 Amplifier](https://www.banggood.com/4pcs-DIY-50KG-Body-Load-Cell-Weight-Strain-Sensor-Resistance-With-HX711-AD-Module-p-1326815.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
+* [DHT22 Temperature And Humidity Sensor](https://www.banggood.com/Geekcreit-AM2302-DHT22-Temperature-And-Humidity-Sensor-Module-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-937403.html?rmmds=search&cur_warehouse=CN)
+
 * [Esp826](https://www.banggood.com/Geekcreit-NodeMcu-Lua-WIFI-Internet-Things-Development-Board-Based-ESP8266-CP2102-Wireless-Module-p-1097112.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
 * [3d printed brackets](https://www.thingiverse.com/thing:2624188)
