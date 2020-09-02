@@ -47,6 +47,37 @@ It should look like this:
 
 [![dB9qDx.md.png](https://iili.io/dB9qDx.md.png)](https://freeimage.host/i/dB9qDx)
 
+### The Custom PCB
+
+The custom PCB is basically a combinator board where you can connect the hx711 amplifier and the wemos d1 mini. It has connectors for the loadcells and a DHT22 if you want to monitor the temperature.
+
+#### DHT22
+
+**IMPORTANT FIRST STEP**
+There are two ways you can connect the temperature sensor. If you get a board with the resistor already mounted:
+
+![DHT22 with resistor](https://raw.githubusercontent.com/Erriez/ErriezDHT22/master/extras/AM2302_DHT22_sensor.png)
+
+The resistor is the little black square thing at the bottom, if your temperature sensor looks like this you can move on to the next part. On the other hand, if you have a _"clean"_ DHT22 like this:
+
+![DHT22 without resistor]https://potentiallabs.com/cart/image/cache/catalog/new%20components/420-b-dht22-am2302-digital-humidity-and-temperature-sensor-600x600-800x800.jpg)
+
+You need to add a 4.7k resistor on the board beneath the wemos, so make sure you do this first since you can't get to it after soldering the wemos in.
+
+#### Wemos and HX711
+
+Solder some male headers on the wemos and on the hx711 board then connect them to the PCB making sure the orientations are correct. After soldering remove any excess pins sticking out on the bottom side.
+
+#### Load cell connections
+
+_tl:dr_
+Measure the resistance between the 3 wires, The pair with the highest resistance are your + and - on the board, the leftover wire is the C one
+
+_explanation_
+To determine how to hook up your single strain gauge load cells to the PCB, measure the resistance with a multimeter between the three wires. You should find a larger resistance (close to double) between a pair. In our example, the resistance between black and white was 1.9 kΩ (i.e. 1900Ω), and the resistance between white and red was 900 Ω. Therefore, the center tap to the strain gauge is the white wire. The center tap or center pin of your strain gauge connects to the "C" pin on the PCB. The larger resistance wires (white and black in this example) connect to the "+" and "-" pins on the combinator.
+
+The PCB board hooks up the four load sensors in such a way that two resistors in the wheatstone bridge configuration are constant values and the other two are variable.
+
 ## Software
 
 Go ahead and fire up Arduino IDE and set your board to esp8266 (or whichever you are using) – set your board speed to 74880.
