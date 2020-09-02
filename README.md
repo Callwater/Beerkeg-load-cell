@@ -60,7 +60,7 @@ There are two ways you can connect the temperature sensor. If you get a board wi
 
 The resistor is the little black square thing at the bottom, if your temperature sensor looks like this you can move on to the next part. On the other hand, if you have a _"clean"_ DHT22 like this:
 
-![DHT22 without resistor]https://potentiallabs.com/cart/image/cache/catalog/new%20components/420-b-dht22-am2302-digital-humidity-and-temperature-sensor-600x600-800x800.jpg)
+![DHT22 without resistor](https://potentiallabs.com/cart/image/cache/catalog/new%20components/420-b-dht22-am2302-digital-humidity-and-temperature-sensor-600x600-800x800.jpg)
 
 You need to add a 4.7k resistor on the board beneath the wemos, so make sure you do this first since you can't get to it after soldering the wemos in.
 
