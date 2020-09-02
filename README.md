@@ -15,11 +15,13 @@ Has remote tare function which you can issue over MQTT if your sensor suffers fr
 
 * [Esp826](https://www.banggood.com/Geekcreit-NodeMcu-Lua-WIFI-Internet-Things-Development-Board-Based-ESP8266-CP2102-Wireless-Module-p-1097112.html?rmmds=search&fbclid=IwAR0NmvoTRrVdggE9vbv3td4MPzyptq_HQC98ZDPmM2XYNvOOXPurNETny-k&cur_warehouse=CN)
 
+* Alt. [Wemos d1 mini](https://banggood.app.link/ihZgkZExs9)
+
 * [3d printed brackets](https://www.thingiverse.com/thing:2624188)
 
 * Phone charger and a micro usb cable
 
-* Some plywood 
+* Some plywood or the stl files located in the **3d files** folder
 
 ### Libraries
 
@@ -30,6 +32,8 @@ Has remote tare function which you can issue over MQTT if your sensor suffers fr
 * [ESP boards](https://github.com/esp8266/Arduino)
 
 ## Hardware setup
+
+### Alternative 1 - hx711 and ESP8266
 
 These load cells are essentially a series of resistors whose value changes when flexed, the resulting change in voltage can then be measured and transformed into scale readings.
 
@@ -47,7 +51,7 @@ It should look like this:
 
 [![dB9qDx.md.png](https://iili.io/dB9qDx.md.png)](https://freeimage.host/i/dB9qDx)
 
-### The Custom PCB
+### Alternative 2 - The Custom PCB
 
 The custom PCB is basically a combinator board where you can connect the hx711 amplifier and the wemos d1 mini. It has connectors for the loadcells and a DHT22 if you want to monitor the temperature.
 
