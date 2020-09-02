@@ -137,15 +137,11 @@ Assuming you got readings as above, you should be safe to mount the hardware in 
 
 This part is obviously very person dependant, but I’ll show you how I mounted mine.
 
-[![dbK9CN.th.jpg](https://iili.io/dbK9CN.th.jpg)](https://freeimage.host/i/dbK9CN)
-
-[![dbFpQp.th.jpg](https://iili.io/dbFpQp.th.jpg)](https://freeimage.host/i/dbFpQp) 
-
-[![dbKJ4t.th.jpg](https://iili.io/dbKJ4t.th.jpg)](https://freeimage.host/i/dbKJ4t)
-
-[![dbKQPS.th.jpg](https://iili.io/dbKQPS.th.jpg)](https://freeimage.host/i/dbKQPS)
-
-[![dbKLV2.th.jpg](https://iili.io/dbKLV2.th.jpg)](https://freeimage.host/i/dbKLV2)
+[![dbfgqB.md.jpg](https://iili.io/dbfgqB.md.jpg)](https://freeimage.host/i/dbfgqB)
+[![dbKQPS.md.jpg](https://iili.io/dbKQPS.md.jpg)](https://freeimage.host/i/dbKQPS)
+[![dbFpQp.md.jpg](https://iili.io/dbFpQp.md.jpg)](https://freeimage.host/i/dbFpQp)
+[![dbK9CN.md.jpg](https://iili.io/dbK9CN.md.jpg)](https://freeimage.host/i/dbK9CN)
+[![dbKJ4t.md.jpg](https://iili.io/dbKJ4t.md.jpg)](https://freeimage.host/i/dbKJ4t)
 
 
 
