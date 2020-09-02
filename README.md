@@ -51,7 +51,8 @@ It should look like this:
 
 The custom PCB is basically a combinator board where you can connect the hx711 amplifier and the wemos d1 mini. It has connectors for the loadcells and a DHT22 if you want to monitor the temperature.
 
-[![dbFbTv.th.jpg](https://iili.io/dbFbTv.th.jpg)](https://freeimage.host/i/dbFbTv) 
+[![dbfMs2.md.jpg](https://iili.io/dbfMs2.md.jpg)](https://freeimage.host/i/dbfMs2)
+[![dbfaJn.md.jpg](https://iili.io/dbfaJn.md.jpg)](https://freeimage.host/i/dbfaJn)
 
 #### DHT22
 
