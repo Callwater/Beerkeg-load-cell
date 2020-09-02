@@ -51,6 +51,8 @@ It should look like this:
 
 The custom PCB is basically a combinator board where you can connect the hx711 amplifier and the wemos d1 mini. It has connectors for the loadcells and a DHT22 if you want to monitor the temperature.
 
+[![dbFbTv.th.jpg](https://iili.io/dbFbTv.th.jpg)](https://freeimage.host/i/dbFbTv) 
+
 #### DHT22
 
 **IMPORTANT FIRST STEP**
@@ -134,11 +136,17 @@ Assuming you got readings as above, you should be safe to mount the hardware in 
 
 This part is obviously very person dependant, but I’ll show you how I mounted mine.
 
-![Image](https://lh3.googleusercontent.com/koHxB4KQsZzZgJ4aw2f0LZsj3vSlvw40JpxhHfU8HH0rBhqxTjBxPgBZG8SpUdqmz76v69_b9xmYAQ21SE9xwNIS7T8qo4asrEScdoWjENZLM3NL_zEfc7moC-idKEQaUj7XYpAJG_iAiL24cRWynM3ieHIZZWLFSNkzm-FRZO2vSIkT1YU18dMDxPkFe2SGh215LQp-qs4FqeQdG8ZAC-D9r57kG1ss1nMsH_e1uXrX3bpdWr9o5MbViNChRBOyYyD2HDQEtYQnnUmazuzeUJCKv6ltLpUep19dG6IgKGn1AeLwszOZ1__f7CIj_JXr3QFXKTPBy29dqDrm5AeHGs9dJ-lWOn8N8LN6oRDC8he-jKHUbBGM7on01b-F8bRvZ-6wcVChtHFZLzDORdISC_BkvTmIaA2rid4sTztFGu4cCcomURoA92gLls-Oi338YOqHH0eWLP6kFmrm5QFZ-b0F0fvIi02oA23cw4nyxmpi4ZYbCcihZ5OIOWMVuD1Kwkh6tPiZ0K_48a1KAouCA8cVkYWFj_gFI7qKZnLci3Vx5qd85GXuK-gQoHA5h0lzgPov5sXvScYp8NfvzXVCGOjz0VL0-3uzrSuUwjYIn_WEMMQ31bgDtFpXZqH26MEtGgHBLbk_wqcXLpYAt0eASDYWMGXnokmLnZwDg052PxA1Y_cQ74_kaGjcB7mLag=w936-h1248-no?authuser=0)
+[![dbK9CN.th.jpg](https://iili.io/dbK9CN.th.jpg)](https://freeimage.host/i/dbK9CN)
 
-![Image](https://lh3.googleusercontent.com/ct-XUzhjC-x6F02EGDt_9WBfP_-2VS6jHTNK0XwJKI1tVbbgK2xaqoq0t7epSRRzmg24je8s2i14lSTV1SxNywQ0xu1aOgx2F27PB_uM-4C7x1zWc1BG5to1m6-r-l3KIH3VUOXhwhLCtlwO2648h1nTidzO14tYQRv-HL5XO9yirG_PvyZ7D78VGO_udKG_R_2Xyo2frjad4qgZIYIMhN6-TL_3m7MOieTtdyhxpK3PcJJ2F-akBXEFnKKa4X9pWuK7KyTzyJXVDc2RVQl2CYrYkb8DZjvHP4Oxrig8pojU4EptrYNtf-iF1Jj2QlllnkioVPRBUjxP_E5heLBNAQGhjDSoKvvvURtkHE0y8bhDL5XTlnvbtv5RYe-zDwxPIeMslRcYfPjyoyS-TbjkYyPU1W1T_SZwtHI-zvvgyWGnkhK-hcoFSnP-3Ne7Xlf3tzoI6gTH7UKWSaIdbjCXWYf6VHhzbC_Sd4BK9YfYpFwQF1Z47zk_VlMRtG7bj5nBr-TOv8cpUgGLIosKIohH1yFC0Udkj1_dDHJbvjld99UZ-dZRKSjhxXqKpY0Pq0UXfEh6FoMxK72JHfzMZnXFrJHsqHhFHi3L2ZOovtptvoKCFs00cqYTQrSZ8b36VjeD3G0H5T0NGwhBfsp2V5GZtbRhliQh3wcKq-piTD0iOn6iKDLFJPcHQLCEu2iryw=w936-h1248-no?authuser=0)
+[![dbFpQp.th.jpg](https://iili.io/dbFpQp.th.jpg)](https://freeimage.host/i/dbFpQp) 
 
-[![dBHILl.md.jpg](https://iili.io/dBHILl.md.jpg)](https://freeimage.host/i/dBHILl)
+[![dbKJ4t.th.jpg](https://iili.io/dbKJ4t.th.jpg)](https://freeimage.host/i/dbKJ4t)
+
+[![dbKQPS.th.jpg](https://iili.io/dbKQPS.th.jpg)](https://freeimage.host/i/dbKQPS)
+
+[![dbKLV2.th.jpg](https://iili.io/dbKLV2.th.jpg)](https://freeimage.host/i/dbKLV2)
+
+
 
 ## Calibration
 
