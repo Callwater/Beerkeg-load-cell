@@ -74,9 +74,11 @@ Solder some male headers on the wemos and on the hx711 board then connect them t
 #### Load cell connections
 
 _tl:dr_
+
 Measure the resistance between the 3 wires, The pair with the highest resistance are your + and - on the board, the leftover wire is the C one
 
 _explanation_
+
 To determine how to hook up your single strain gauge load cells to the PCB, measure the resistance with a multimeter between the three wires. You should find a larger resistance (close to double) between a pair. In our example, the resistance between black and white was 1.9 kΩ (i.e. 1900Ω), and the resistance between white and red was 900 Ω. Therefore, the center tap to the strain gauge is the white wire. The center tap or center pin of your strain gauge connects to the "C" pin on the PCB. The larger resistance wires (white and black in this example) connect to the "+" and "-" pins on the combinator.
 
 The PCB board hooks up the four load sensors in such a way that two resistors in the wheatstone bridge configuration are constant values and the other two are variable.
