@@ -1,11 +1,11 @@
 
 // Wifi Settings
-#define SSID                          "Hemma"
-#define PASSWORD                      "ringvattnet"
+#define SSID                          "SSID"
+#define PASSWORD                      "password"
 
 // MQTT Settings
 #define HOSTNAME                      "beer_1"
-#define MQTT_SERVER                   "192.168.8.125"
+#define MQTT_SERVER                   "server_ip"
 #define STATE_TOPIC                   "beer_1"
 #define STATE_RAW_TOPIC               "beer_1/raw"
 #define AVAILABILITY_TOPIC            "beer_1/available"
@@ -13,7 +13,7 @@
 #define TEMPERATURE_TOPIC             "beer_1/temperature"
 #define HUMIDITY_TOPIC                "beer_1/humidity"
 #define mqtt_username                 "mqtt"
-#define mqtt_password                 "sakris16"
+#define mqtt_password                 "password"
 
 // HX711 Pins
 const int LOADCELL_DOUT_PIN = 2;  // Remember these are ESP GPIO pins, they are not the physical pins on the board.
